@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    background: palegoldenrod;
+}
+
+.container{
+    box-shadow: inset -8px -8px 12px rgb(152, 193, 70), 
+                inset 8px 8px 12px rgb(49, 123, 25);
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button{
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background: white;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+img{
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+}
